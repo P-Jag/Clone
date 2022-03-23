@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEC8E72327EBB61500A89C3F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */; };
 		FEDBEC9F27E91F7F001F031B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBEC9E27E91F7F001F031B /* AppDelegate.swift */; };
 		FEDBECA127E91F7F001F031B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBECA027E91F7F001F031B /* SceneDelegate.swift */; };
 		FEDBECA327E91F7F001F031B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBECA227E91F7F001F031B /* MainTabBarViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		FEDBEC9B27E91F7F001F031B /* Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDBEC9E27E91F7F001F031B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDBECA027E91F7F001F031B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FEC8E71C27EBB57200A89C3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEC8E71D27EBB57A00A89C3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC8E71E27EBB58100A89C3F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FEC8E71F27EBB5B600A89C3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEC8E72127EBB5CB00A89C3F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		FEDBEC9227E91F7F001F031B = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +100,11 @@
 		FEDBEC9D27E91F7F001F031B /* Clone */ = {
 			isa = PBXGroup;
 			children = (
+				FEC8E72127EBB5CB00A89C3F /* Managers */,
+				FEC8E71F27EBB5B600A89C3F /* Resources */,
+				FEC8E71C27EBB57200A89C3F /* Models */,
+				FEC8E71D27EBB57A00A89C3F /* Views */,
+				FEC8E71E27EBB58100A89C3F /* ViewModels */,
 				FEDBECB227E921A8001F031B /* Controllers */,
 				FEDBEC9E27E91F7F001F031B /* AppDelegate.swift */,
 				FEDBECA027E91F7F001F031B /* SceneDelegate.swift */,
@@ -156,6 +199,7 @@
 			files = (
 				FEDBECA327E91F7F001F031B /* MainTabBarViewController.swift in Sources */,
 				FEDBECBB27E92242001F031B /* SearchViewController.swift in Sources */,
+				FEC8E72327EBB61500A89C3F /* CollectionViewTableViewCell.swift in Sources */,
 				FEDBEC9F27E91F7F001F031B /* AppDelegate.swift in Sources */,
 				FEDBECB927E92227001F031B /* DownloadsViewController.swift in Sources */,
 				FEDBECA127E91F7F001F031B /* SceneDelegate.swift in Sources */,
