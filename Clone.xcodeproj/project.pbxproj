@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4383B527F07E7900393E91 /* HeroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4383B427F07E7900393E91 /* HeroHeaderView.swift */; };
 		FEC8E72327EBB61500A89C3F /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */; };
 		FEDBEC9F27E91F7F001F031B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBEC9E27E91F7F001F031B /* AppDelegate.swift */; };
 		FEDBECA127E91F7F001F031B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDBECA027E91F7F001F031B /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4383B427F07E7900393E91 /* HeroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderView.swift; sourceTree = "<group>"; };
 		FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		FEDBEC9B27E91F7F001F031B /* Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDBEC9E27E91F7F001F031B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC8E72227EBB61500A89C3F /* CollectionViewTableViewCell.swift */,
+				FE4383B427F07E7900393E91 /* HeroHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				FEDBECBB27E92242001F031B /* SearchViewController.swift in Sources */,
 				FEC8E72327EBB61500A89C3F /* CollectionViewTableViewCell.swift in Sources */,
 				FEDBEC9F27E91F7F001F031B /* AppDelegate.swift in Sources */,
+				FE4383B527F07E7900393E91 /* HeroHeaderView.swift in Sources */,
 				FEDBECB927E92227001F031B /* DownloadsViewController.swift in Sources */,
 				FEDBECA127E91F7F001F031B /* SceneDelegate.swift in Sources */,
 				FEDBECB727E921ED001F031B /* UpcomingViewController.swift in Sources */,
